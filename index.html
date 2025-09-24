@@ -3,10 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!---Title and logo-->
     <title>ENGLISH COURSE</title>
-    <link rel="shortcut icon" href="assets/fa-book-open.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+
+    <!--font awesome  cdn link add -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />   
+
+    <!---font add --->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!---tailwind and daisyui- link add-->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<!--style shit css-->
+<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-    
-</body>
+    <!--header Navbar-->
+    <header>
+        <div class="navbar bg-base-100 shadow-sm">
+  <div class="navbar-start">
+    <div class="dropdown">
+      <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+      </div>
+      <ul
+        tabindex="0"
+        class="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+       <li><a href="https://www.facebook.com/saimun.islam.486283/"class=""><i class="fa-solid fa-circle-question"></i>Facebook</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/English_language"class=""> <i class="fa-solid fa-book-open"></i> Learn</a></li>
+      <li><a href="http://127.0.0.1:5500/index.html"class=""><i class="fa-light fa-right-from-bracket"></i>Home</a></li>
+           
+      </ul>
+    </div>
+    <a href="" class="flex items-center gap-2 px-2">
+        <span class="text-lg font-bold">English</span>
+        <img src="assets/logo.png" alt="">
+        <span class="font-bangla text-lg font-semi">জানালা</span>
+    </a>
+  </div>
+  <div class="navbar-end hidden lg:flex">
+    <ul class="menu menu-horizontal px-1 space-x-4">
+      <li><a href="https://www.facebook.com/saimun.islam.486283/"class="btn btn-outline btn-primary"><i class="fa-solid fa-circle-question"></i>Facebook</a></li>
+      <li><a href="https://en.wikipedia.org/wiki/English_language"class="btn btn-outline btn-primary"> <i class="fa-solid fa-book-open"></i> Learn</a></li>
+      <li><a href="http://127.0.0.1:5500/index.html"class="btn btn-outline btn-primary"><i class="fa-light fa-right-from-bracket"></i>Home</a></li>
+    </ul>
+  </div>
+</div>
+    </header>
+    <section class="flex flex-col-reverse md:flex-row gap-10 justify-between items-center px-5 py-5 w-11/12 mx-auto">
+          <div class="content flex-0.75 text-center md:text-left">
+            <h2 class="text-4xl font-bold mb-5"><span class="text-sky-400">English</span> is Easy!!</h2>
+            <p class="font-bangla">অনেকে মনে করে ইংরেজি শেখা কঠিন, কিন্তু আসলে এটি খুব সহজ। প্রতিদিন অল্প করে চর্চা করলে ইংরেজি আয়ত্ত করা যায়। ছোট ছোট শব্দ মুখস্থ করা, সহজ বাক্য বলা আর দৈনন্দিন কথায় ব্যবহার করলেই ধীরে ধীরে ইংরেজিতে দক্ষ হওয়া সম্ভব। নিয়মিত অনুশীলন আর আত্মবিশ্বাস থাকলে ইংরেজি শেখা মোটেও কঠিন নয়। তাই ভয় না পেয়ে আজ থেকেই শুরু করুন, কারণ ইংরেজি সত্যিই সহজ।</p>
+          </div>
+          <div class="image flex-0.75">
+            <img src="assets/hero-student.png" alt="" srcset="">
+          </div>
+
+    </section>
+</body> 
 </html>
